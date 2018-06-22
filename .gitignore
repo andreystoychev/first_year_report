@@ -1,0 +1,30 @@
+.DS_Store
+
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.log
+*.fls
+*.out
+*.toc
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.blg
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+## makeidx
+*.idx
+*.ilg
+*.ind
+
+## nomencl
+*.nlg
+*.nlo
+*.nls
