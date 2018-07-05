@@ -11,4 +11,42 @@
     \graphicspath{{Chapter3/Figs/Vector/}{Chapter3/Figs/}}
 \fi
 
-%\section{Section 1}
+\section{Comparison between genetically encoded fluorescent proteins}
+
+%Assume that I have explained in Backgrounds or Methods:
+%	* binary expression systems
+%	* genetically encoded fluorescent proteins
+%	* ratiometric imaging
+
+
+As explained in the previous chapters, in order to do ratiometric imaging, it is needed to use two
+fluorescent proteins with sufficiently different excitation and emission spectra, and both FPs need
+to be expressed in the same cells, or at least the same areas. One of the FPs has to be a calcium
+indicator and the other one has to be calcium-independent FP.
+
+
+For the calcium indicator, we have chosen the GCaMP6 family of indicators
+\citep{nakai2001high,chen2013ultrasensitive}. More specifically, the GCaMP6s and GCaMP6f
+indicators, because they are the latest published and brightest members of the family, have some
+of the largest dynamic ranges of all GECIs, and are the de facto standard calcium indicators
+\citep{lin2016genetically}.
+
+
+For the calcium-independent FP, we identified three candidates, all in the orange-red part of the
+visible light spectrum: mRFP \citep{campbell2002monomeric}, tdTomato \citep{shaner2004improved}, and
+mScarlet \citep{bindels2017mscarlet}. These candidate FPs were tested \textit{in vivo} by crossing
+transgenic \textit{Drosophila} lines, UAS lines expressing the FPs and GAL4 lines targeting specific
+cells, to achieve very targeted, very sparse expression of the FPs.
+
+Each experiment consisted of ...
+
+Figure~1 and Figure~2 show sample fluorescence images ...
+
+The FPs were compared based on a few criteria: expression pattern, difference between fluorescence
+in the regions of interest and autofluorescence, and dynamic range.
+
+
+Something that needs to be mentioned is that the light filters were not changed in-between
+experiments. And since the filters were optimised for imaging with tdTomato, it may be
+possible to significantly improve the signals from mRFP and mScarlet by changing the filters to
+adjust the cut-on and cut-off wavelengths.
